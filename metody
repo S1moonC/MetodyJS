@@ -1,0 +1,54 @@
+function scitani(a, b) {
+	return a+b;
+}
+
+console.log(scitani(4, 6));
+
+function odcitani(a, b) {
+	return a-b;
+}
+
+console.log(odcitani(4, 6));
+
+function deleni(a, b) {
+	return a/b;
+}
+
+console.log(deleni(4, 2));
+
+function nasobeni(a, b) {
+	return a*b;
+}
+
+console.log(nasobeni(4, 6));
+
+function odmocnina (a){
+return  Math.sqrt(a);
+}
+
+console.log(odmocnina(5))
+
+function jesude(číslo) {
+    return číslo % 2 === 0;
+}
+console.log(jesude(6))
+
+function jeliche(číslo) {
+    return číslo % 2 === 1;
+}
+console.log(jeliche(5))
+
+function upper(text) {
+    return text.toUpperCase();
+}
+console.log(upper("fadsklsfdakfdsa"));
+
+function lower(text) {
+    return text.toLowerCase();
+}
+console.log(lower("SADFGHJKUZTRESDFV"));
+
+function mixvseho(a, b, c, d, e){
+		return a + b - c * d / e;
+}
+console.log(mixvseho(8, 4, 6, 8, 12));
